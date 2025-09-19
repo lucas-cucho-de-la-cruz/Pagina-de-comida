@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Practico</title>
+    <link rel="stylesheet" href="detalle.css">
+</head>
+<body>
+    <h1>
+        <span>🥟</span><span id="titulo"> Hablemos de comida </span><span>🍕</span>
+    </h1>
+    <h2>
+        Advertencia!! 🤨 No apto para quienes esten a dieta 🤨
+    </h2>
+    <fieldset id="color">
+        <legend>Ingrese sus datos profe</legend>
+        <label for="nombre"> Nombre </label>
+        <input type="text" id="nombre" name="nombre"
+        placeholder="Introduzca su nombre"><br>
+        <label for="apellido"> Apellido </label>
+        <input type="text" id="apellido" name="apellido" placeholder="Ponga su apellido"><br>
+        <label for="edad"> Edad </label>
+        <input type="edad" id="edad" name="edad" placeholder="Intriduzca su edad aca"><br>
+        <label for="nacionalidad"> Nacionalidad </label>
+        <input type="nacionalidad" id="nacionalidad" name="nacionalidad" placeholder="Pon tu nacionalidad"><br>
+        <label for="genero"> Gereno</label>
+        <input type="genero" id="genero" name="genero" placeholder="???????"><br>
+            <button id="mostrarformulario"> Responder a formulario </button><br>
+    <div id="formulario" class="oculto">
+        <form>
+            <label for="comidafavorita"> ¿¿¿Cual de las siguientes imagenes es tu comida favorita???</label>
+            <select id="comidafavorita">
+                <option value="">---Elegi una opciòn---</option>
+                <option value="pan"> Pan </option>
+                <option value="pancho"> Panchos</option>
+                <option value="choripan"> Choripan </option>
+                <option value="empanadas"> Empanadas </option>
+            </select>
+            <button type="button" id="verreceta"> Ver la receta </button>
+        </form>
+        <div id="resultadoreceta" class="ocultos"></div>
+    </div>
+    <button id="mostrargaleria"> Mostrar galeria </button>
+    <div id="galeria" class="oculto">
+    <img src="imagenes/descarga empanada.jpg" alt="Docena de empanadas">
+    <img src="imagenes/chan.jpg" alt="Pan">
+    <img src="imagenes/descarga.jpg" alt="Pan 2">
+    <img src="imagenes/gifpizza.jpg" alt="Comiendo pizza">
+    <img src="imagenes/lalalal.jpg" alt="Pizza">
+    <img src="imagenes/pancito.jpg" alt="Rebanada de pan">
+    <img src="imagenes/pizzas.jpg" alt="Comiendo pizza 2">
+    <img src="imagenes/chori con chumichurri.jpg" alt="Choripan con chimichurri">
+    <img src="imagenes/descarga kepchup.jpg" alt="Pancho de ketchup">
+    <img src="imagenes/descarga pancho.jpg" alt="Panchito">
+    </div><br>
+    <label for="nota"> Nota</label>
+    <input type="nota" id="nota" name="nota" placeholder=" 20/10 y Aprobado"><br>
+    <button id="botonmagico"> La Palabra Magica </button>
+    </fieldset>
+    <script src="java.js"></script>
+</body>
+</html>
