@@ -50,7 +50,7 @@ const formulario = document.getElementById("formulario");
 botonFormulario.addEventListener("click", function(){
     formulario.classList.toggle("oculto");
     if (formulario.classList.contains("oculto")){
-        botonFormulario.textContent = "RESPONDER PREGUNTAS";
+        botonFormulario.textContent = "Responder al Preguntas";
     }
     else{
         botonFormulario.textContent = "Ocultar Formulario";
