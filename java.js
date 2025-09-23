@@ -65,14 +65,3 @@ document.getElementById("botonmagico").addEventListener("click", function(){
         window.location.href = "https://www.youtube.com/watch?v=Bb-nTzGLLxo";
     }
 });
-//*function playmusic(){document.getElementById("audio").play();}
-const music = document.getElementById("musica");
-const btn = document.getElementById("audio");
-let isPlaying = false;
-btn.addEventListener("click",() => {
-    if (isPlaying){ music.pause();
-        btn.textContent = "musica";
-    } else { music.play().catch(err => console.log("error al reproducir la musica", err));
-        btn.textContent = "pausar";
-    } isPlaying = !isPlaying;
-})
