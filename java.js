@@ -16,7 +16,7 @@ verReceta.addEventListener("click", function(){
         break;
         case "choripan":
         receta = "Receta de Chori Pan: asar el chori, poner en pan y agregar el chimichurri";
-        imagen = "imagenes/chori con chumichurri.jpg";
+        imagen = "imagenes/choripan.jpg";
         break;
         case "empanadas":
         receta = "Receta de Empanadas: rellenar masa con carne, cerrar y hornear";

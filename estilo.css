@@ -1,0 +1,93 @@
+body{
+    padding: 0;
+    background: #ffe600;
+    /*background-image: url(imagenes/cooking-background-dg5u6vitzfnv3mrw.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;*/
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+}
+#titulo{
+    background: #ff3300;
+    text-align: center;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#subtitulo{
+    text-align: center;
+    background: none;
+    color: #0099ff;
+    /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+#arriba{
+    text-align: center;
+    /*font-size: 15px;*/
+    font-weight: bold;
+    color: #fff;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+#color{
+    background-image: url(imagenes/cooking-background-dg5u6vitzfnv3mrw.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 4px solid black;
+    border-radius: 10px;
+    border-radius: 10px;
+    width: 50%;
+    margin: 0 auto;
+    border: #000 solid 2px;
+    text-align: center;
+}
+label{
+    font-weight: bold;
+    color: white;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+p{
+    font-weight: bold;
+    color: white;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+#galeria{
+    margin-top: 5px;
+    text-align: center;
+}
+#galeria img{
+    width: 200px;
+    margin: 10px;
+}
+.oculto{
+    display: none;
+}
+#formulario label, #formulario input{
+    display: block;
+}
+#parati{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.botones{
+    background-color: #f90;
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: all 0.5s ease, color 0.5s ease;
+}
+.botones:hover{
+    background: #f00;
+    color: #000;
+}
